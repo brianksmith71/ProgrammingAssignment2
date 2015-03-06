@@ -8,7 +8,7 @@
 #     System is Windows 7 x64 Ultimate SP 1, Intel Core i7-4700MQ CPU @ 2.40 GHz and 32.0 GB of RAM     #
 #                                                                                                       #
 #     Author:  Brian K Smith                                                                            #
-#     Date:  2014-02-22                                                                                 #
+#     Date:  2014-03-05                                                                                 #
 #########################################################################################################
 
 
@@ -25,6 +25,7 @@
 #            The point of this is conceptual, certainly    #
 #            not practical as this functionality simply    #
 #            shows lexical scoping in R.                   #
+#                                                          #
 ############################################################
 
 makeCacheMatrix <- function(x = matrix()) 
@@ -75,6 +76,7 @@ makeCacheMatrix <- function(x = matrix())
 #            The point of this is conceptual, certainly    #
 #            not practical as this functionality simply    #
 #            shows lexical scoping in R.                   #
+#                                                          #
 ############################################################
 
 cacheSolve <- function(x, ...) 
